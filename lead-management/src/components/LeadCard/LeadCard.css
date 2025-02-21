@@ -1,0 +1,123 @@
+.lead-card {
+    background: white;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 16px 0px 0px 0px;
+    margin-bottom: 16px;
+    width: 100%;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.lead-header {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border-bottom: 1px solid #ddd;
+    padding: 0px 0px 10px 2%;
+}
+
+.lead-avatar {
+    background-color: orange;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.lead-info p {
+    margin: 0;
+    text-align: left;
+}
+
+.lead-time {
+    font-size: 12px;
+    color: gray;
+    margin-top: 5px;
+}
+
+.lead-details {
+    display: flex;
+    gap: 2%;
+    font-size: 14px;
+    color: gray;
+    justify-content: flex-start;
+    border-bottom: 1px solid #ddd;
+    padding: 0px 0px 10px 2%;
+}
+
+.lead-details p {
+    margin: 0;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.lead-description {
+    font-size: 14px;
+    color: gray;
+    margin: 5px 0px 0px 0px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+    padding: 0px 0px 20px 2%;
+}
+
+.lead-contact {
+    font-size: 14px;
+    display: flex;
+    gap: 12px;
+    color: gray;
+    text-align: left;
+    padding: 0px 0px 0px 2%;
+}
+
+.contact-text {
+    color: #fe7d2b;
+    font-weight: bold;
+}
+
+.lead-actions {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 0px 0px 10px 2%;
+}
+
+.accept-btn {
+    height: 6vh;
+    background-color: #fe7d2b;
+    color: white;
+    border: none;
+    padding: 6px 24px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;
+    border-bottom: 3px solid #cc7036;
+}
+
+.decline-btn {
+    height: 6vh;
+    background-color: #eeeeee;
+    color: #5d5d5d;
+    border: none;
+    padding: 6px 24px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;
+    border-bottom: 3px solid #d6d6d6;
+}
+
+.lead-price {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.lead-text {
+    color: gray;
+}

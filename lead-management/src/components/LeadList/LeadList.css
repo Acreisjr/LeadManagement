@@ -1,0 +1,8 @@
+.lead-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    justify-content: center;
+    max-width: 1000px;
+    margin: auto;
+}
